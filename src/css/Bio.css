@@ -1,0 +1,96 @@
+.bio{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 16rem;
+}
+
+.bio-data{
+    margin: 0 12rem 0 0;
+}
+
+.bio-data .bio-heading{
+    font-size: 2.8rem;
+    letter-spacing: 0.8rem;
+}
+
+.bio-data .bio-name{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+.bio-links a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.bio-links a:hover{
+    color: rgb(138, 176, 245);
+}
+
+
+/* for small pc */
+@media (max-width: 1200px) {
+.bio{
+    margin: 1.2rem 4.8rem;
+}
+}
+
+
+/* for tablets */
+@media (max-width: 900px) {
+.bio{
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+}
+.bio-data{
+    margin: 0 auto;
+    text-align: center;
+}
+  .bio-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+.bio-data .bio-name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.bio-data p{
+    font-size: 1.6rem;
+}
+.bio-data .bio-heading{
+    font-size: 3.6rem;
+}
+}
+
+
+/* for phones */
+@media (max-width: 600px) {
+    .bio{
+        gap: 2.2rem;
+        margin: 0;
+    }
+    .bio-data .bio-name{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.bio-data p{
+    font-size: 1.4rem;
+    margin: 0 1.2rem;
+}
+  .bio-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.6rem;
+  }
+  .bio-data .bio-heading{
+    font-size: 2.6rem;
+}
+}

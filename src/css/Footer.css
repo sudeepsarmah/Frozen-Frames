@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.2rem 8rem 0;
+    border-top: 1px solid black;
+}
+
+.footer-links{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.35s;
+}
+
+.footer-links a:hover{
+    color: rgb(138, 176, 245);
+}
+
+@media (max-width:600px){
+    footer{
+        flex-direction: column-reverse;
+        padding: 1.2rem 0;
+    }
+    .footer-links a{
+        font-size: 1.6rem;
+    }
+    .footer-trademark h4{
+        font-size: 0.9rem;
+    }
+}

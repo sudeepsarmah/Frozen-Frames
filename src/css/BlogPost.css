@@ -1,0 +1,63 @@
+.blog-post{
+    max-width: 32rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: 1px solid black;
+}
+
+.blog-post-image{
+    width: 100%;
+    height: 360px ;
+    overflow: hidden;
+}
+
+.blog-post-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-post-details{
+    padding: 2rem 2rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .blog-post {
+    flex-direction: column; /* Stack image above text for better mobile UX */
+    max-width: 90%; /* Full width on small screens */
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .blog-post-image {
+    height: 22.5rem; /* Reduced height for smaller screens */
+  }
+
+  .blog-post-details {
+    padding: 1rem 0 0 0; /* Remove left padding */
+  }
+
+  .blog-post-footer {
+    gap: 1.2rem;
+    flex-wrap: wrap; /* Avoid overflowing */
+
+  }
+}

@@ -1,0 +1,44 @@
+.photograph-container{
+    column-count: 3;
+    column-gap: 2.4rem;
+    padding:0 8rem;
+    
+}
+
+.photograph-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  display: block;
+  break-inside: avoid;
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.photograph-container img:hover{
+    transform: scale(1.03);
+}
+
+@media (max-width: 1200px) {
+  .photograph-container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .photograph-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .photograph-container {
+    column-count: 1;
+    padding: 0 2rem;
+  }
+  .photograph-container img{
+    width: 100%;
+    max-width: 100%;
+  }
+}

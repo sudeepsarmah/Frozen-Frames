@@ -1,0 +1,58 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 24rem;
+}
+
+form input{
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+form textarea{
+    height: 6rem;
+    resize: none;
+    font-size: 1.2rem;
+}
+
+form .btn-submit{
+    padding: 0.4rem 0.8rem;
+    width: 6rem;
+    align-self: flex-end;
+    background-color: transparent;
+    border: 0.8px solid black;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 0.8rem;
+}
+
+form .btn-submit:hover{
+    background-color: rgb(174, 245, 138);
+    
+}
+
+@media (max-width:900px){
+    form .btn-submit{
+        align-self: center;
+        font-size: 1.6rem;
+        width: 8rem;
+    }
+form{
+    width: 32rem;
+}
+form label{
+    font-size: 1.4rem;
+}  
+}
+
+@media(max-width:600px){
+    form{
+    width: 20rem;
+}
+    form .btn-submit{
+        align-self: center;
+        font-size: 1.2rem;
+        width: 6rem;
+    }
+}
