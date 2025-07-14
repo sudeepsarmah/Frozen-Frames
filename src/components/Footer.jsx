@@ -1,4 +1,5 @@
 import { format } from 'date-fns'
+import { Github, BriefcaseBusiness, Twitter } from 'lucide-react'
 import '../css/Footer.css'
 export default function Footer() {
     const date = new Date()
@@ -11,9 +12,9 @@ export default function Footer() {
                     <h4>@{formattedDate} || Sudeepta Sarmah</h4>
                 </div>
                 <div className='footer-links'>
-                    <a href="/">Github</a>
-                    <a href="/">Portfolio</a>
-                    <a href="/">Twitter</a>
+                    <a href="/"><Github size={16} /> Github</a>
+                    <a href="/"><BriefcaseBusiness size={16} /> Portfolio</a>
+                    <a href="/"><Twitter size={16} /> Twitter</a>
                 </div>
             </footer>
         </>
