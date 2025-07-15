@@ -10,9 +10,9 @@ export default function Bio() {
                 <h4 className="bio-name">Sudeepta Sarmah</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, fuga explicabo minus facilis optio reiciendis laborum libero. Minima unde enim.</p>
                 <div className='bio-links'>
-                    <a href="/github"><Github size={20} /> Sudeepta Sarmah</a>
-                    <a href="/portfolio"><BriefcaseBusiness size={20} /> Sudeepta Sarmah</a>
-                    <a href="/twitter"><Twitter size={20} /> Sudeepta Sarmah</a>
+                    <a href="https://github.com/sudeepsarmah" target="_blank" rel="noopener noreferrer"><Github size={20} /> Sudeepta Sarmah</a>
+                    <a href="https://github.com/sudeepsarmah" target="_blank" rel="noopener noreferrer"><BriefcaseBusiness size={20} /> Sudeepta Sarmah</a>
+                    <a href="https://x.com/sudeepta_sarmah" target="_blank" rel="noopener noreferrer"><Twitter size={20} /> Sudeepta Sarmah</a>
                 </div>
             </div>
             <div className="contact-form">

@@ -22,6 +22,7 @@
     padding: 2rem 2rem 2rem 0;
     display: flex;
     flex-direction: column;
+    font-family: "Parkinsans", sans-serif;
 }
 
 .blog-post-footer{

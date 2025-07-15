@@ -1,3 +1,12 @@
+/* Nav-Brand */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Nav-Links */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+/* Bio-Heading */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html, body{
     height: 100%;
     margin: 0;

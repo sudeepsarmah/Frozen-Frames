@@ -10,11 +10,14 @@
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
+    font-family: "Parkinsans", sans-serif;
 }
 
 .navbar-brand{
     font-size: 1.6em;
     cursor: pointer;
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
 }
 
 .navbar-links a{
