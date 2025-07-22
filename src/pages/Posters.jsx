@@ -23,7 +23,10 @@ export default function Posters() {
 
     return (
         <>
+            <h2 className="quote-heading">“Anyone who says you can’t see a thought simply doesn’t know art.”</h2>
+            <h3 className="quote-author">~Wynetka Ann Reynolds</h3>
             <section className="photograph-container">
+
                 {imageURLs.map((url, apiIndex) =>
                     <img src={url} alt="photograph" key={apiIndex} loading="lazy" />
                 )}

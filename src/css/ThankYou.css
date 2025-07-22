@@ -1,20 +1,32 @@
 .thank-you-modal{
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100;
+    height: 100%;
+    backdrop-filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .modal-content{
-    background: white;
+    background: rgb(180, 210, 255);
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
     max-width: 400px;
     text-align: center;
+}
+
+.thank-you-modal .modal-close-btn{
+    margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }

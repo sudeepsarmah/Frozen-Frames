@@ -8,6 +8,7 @@ import Bio from './pages/Bio'
 import './css/App.css'
 import Home from './pages/Home'
 import Posters from './pages/Posters'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           {/* <Route path='/blog' element={<Blog />} /> */}
           <Route path='/bio' element={<Bio />} />
         </Routes>
+        <ScrollToTop></ScrollToTop>
       </main>
       <Footer></Footer>
     </div>

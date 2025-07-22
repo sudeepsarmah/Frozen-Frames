@@ -24,6 +24,8 @@ export default function Home() {
 
     return (
         <>
+            <h2 className="quote-heading">“The mystery isn’t in the technique, i’s in each of us.”</h2>
+            <h3 className="quote-author">– Harry Calahan</h3>
             <section className="photograph-container">
                 {error && <p>{error}</p>}
                 {imageURLs.map((url, index) =>
